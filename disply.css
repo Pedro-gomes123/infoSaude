@@ -1,0 +1,123 @@
+body{
+    margin: 0rem;
+    padding: 0rem;
+    
+}
+
+p{
+    margin: 0rem;
+    padding: 0rem;
+    display: flex;
+}
+
+/* -------- main ---------*/
+
+nav{
+    margin: 0rem;
+    padding: 1.4rem 0;
+}
+
+.div-img{
+    display: flex;
+    width: 100%;
+    margin: 0rem;
+    
+}
+
+
+/* -------- header ---------*/
+
+.conteiner-text-home{
+    display: flex;
+    height: 9rem;
+}
+.text-home1{
+    display: block;
+    text-align: center;
+    margin: 2rem  4rem;
+}
+
+.button-distrito{
+    display: flex;
+    margin: 4rem 4rem;
+    border: 0px;
+    border-radius: 17px;
+    width: 292px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0rem 7.7rem 0rem;
+    gap: 4rem;
+}
+
+.box{
+    display: flex;
+    margin: 0rem;
+    height: 335px;
+    width: 423px;
+    
+}
+
+.conteiner-info{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0rem 7.7rem 2rem;
+    height: 880px;
+    width: 1329px;
+}
+
+.title-info{
+    display: flex;
+    text-align: center;
+    margin: 4rem 2rem ;
+}
+
+.button-distrito2{
+    display: flex-inline;
+    margin: 0rem 0rem 0rem 4rem;
+    border: 0px;
+    border-radius: 17px;
+    width: 292px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*----- footer -----*/
+
+.footer{
+    display: flex;
+    flex-direction: column; 
+    height: 24.8rem;
+    width: auto;
+    box-sizing: content-box;
+}
+
+.conteiner-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+    
+    width: 100%;
+}
+
+.box-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 19.3rem;
+    height: 7.4rem;
+    margin: 3rem 6rem 3rem 6rem;
+}
+
+.footer-linha{
+    margin: 0rem 9.3rem;
+}
