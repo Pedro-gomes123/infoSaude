@@ -13,8 +13,19 @@ p{
 /* -------- main ---------*/
 
 nav{
+    display: flex;
+    height: 4rem;
     margin: 0rem;
-    padding: 1.4rem 0;
+    
+}
+
+.title-principal{
+    display: flex;
+    align-self: center;
+    margin: 1rem;
+    padding: 0rem;
+    font-size: 38px;
+    font-weight: extra-bold;
 }
 
 .div-img{
@@ -33,13 +44,17 @@ nav{
 }
 .text-home1{
     display: block;
-    text-align: center;
     margin: 2rem  4rem;
+}
+
+.text-home2{
+    display: block;
+    margin: 2rem 4rem;
 }
 
 .button-distrito{
     display: flex;
-    margin: 4rem 4rem;
+    margin: 2rem 4rem;
     border: 0px;
     border-radius: 17px;
     width: 292px;
@@ -62,6 +77,21 @@ nav{
     height: 335px;
     width: 423px;
     
+}
+
+.icone-map{
+    display: flex;
+    max-width: 48px;
+}
+
+.icone-user{
+    display: flex;
+    max-width: 48px;
+}
+
+.icone-message{
+    display: flex;
+    max-width: 48px;
 }
 
 .conteiner-info{
@@ -121,3 +151,11 @@ nav{
 .footer-linha{
     margin: 0rem 9.3rem;
 }
+
+/* Aplica estilos apenas para telas menores que 768px (telas móveis) */
+@media (max-width: 768px) {
+    body {
+        background-color: lightgray;
+    }
+}
+

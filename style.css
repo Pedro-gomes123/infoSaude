@@ -1,7 +1,22 @@
 :root {
+    --color-text: #ffffff;
     --color-tex-blue: #013D92;
     --color-button-blue: #013D92;
+    --color-nav: #013D92;
     --color-conteiner-white: #F9F9F9:
+}
+
+
+/*--------- main ---------*/
+
+nav{
+    background-color: var(--color-nav);
+    color: white;
+    height: 4rem;
+}
+
+.title-principal{
+    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 
@@ -9,7 +24,14 @@
 
 .text-home1{
     font-size: 54px;
-    font-weight: bold;
+    font-weight: extra-bold;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: var(--color-tex-blue);
+}
+
+.text-home2{
+    font-size: 32px;
+    font-weight: regular;
     font-family: 'Bricolage Grotesque', sans-serif;
     color: var(--color-tex-blue);
 }
