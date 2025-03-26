@@ -1,12 +1,11 @@
-body{
-    margin: 0rem;
-    padding: 0rem;
-    
+body {
+    margin: 0;
+    padding: 0;
 }
 
-p{
-    margin: 0rem;
-    padding: 0rem;
+p {
+    margin: 0;
+    padding: 0;
     display: flex;
 }
 
@@ -39,9 +38,9 @@ nav{
     margin: 0rem 2rem;
 }
 
-.nav-servisos{
+.nav-servicos { /* Corrigido o nome da classe */
     display: flex;
-    margin: 0rem 2rem;
+    margin: 0 2rem;
 }
 
 .nav-posto{
@@ -121,16 +120,16 @@ nav{
 }
 
 
-.saiba-mais{
-   display: flex;
-   margin-left: 39%;
-   height: 4rem;
-   width: 20rem; 
-   border: 3px solid var(--color-button-blue);
-   border-radius: 1rem;
-   align-items: center;
-   justify-content: center;
-   
+.saiba-mais {
+    display: flex;
+    margin-left: auto; /* Melhorado para centralizar dinamicamente */
+    margin-right: auto;
+    height: 4rem;
+    width: 20rem;
+    border: 3px solid var(--color-button-blue);
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
 }
 
 
