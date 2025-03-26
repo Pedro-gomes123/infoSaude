@@ -22,7 +22,7 @@ nav{
 .title-principal{
     display: flex;
     align-self: center;
-    margin: 1rem;
+    margin: 1rem 50rem 1rem 1rem;
     padding: 0rem;
     font-size: 38px;
     font-weight: extra-bold;
@@ -35,6 +35,11 @@ nav{
 }
 
 .nav-distritos{
+    display: flex;
+    margin: 0rem 2rem;
+}
+
+.nav-servisos{
     display: flex;
     margin: 0rem 2rem;
 }
@@ -60,7 +65,7 @@ nav{
 }
 .text-home1{
     display: block;
-    margin: 2rem  4rem;
+    margin: 2rem 4rem;
 }
 
 .text-home2{
@@ -82,33 +87,31 @@ nav{
 .conteiner-card{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Garante que os itens fiquem na parte superior */
     margin: 4rem 0rem 7.7rem 0rem;
     gap: 4rem;
 }
 
 .box{
     display: flex;
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: flex-start; /* Garante que os itens fiquem na parte superior */
     margin: 0rem;
     height: 335px;
     width: 423px;
     
 }
 
-.icone-map{
-    display: flex;
-    max-width: 48px;
+.icone-card{
+    display: block;
+    width: 48px; /* Ajuste o tamanho conforme necessário */
+    height: 48px;
+    margin-bottom: 1rem; /* Espaçamento entre o ícone e outros conteúdos */
+    justify-content: center;
+    align-items: center;
 }
 
-.icone-user{
-    display: flex;
-    max-width: 48px;
-}
-
-.icone-message{
-    display: flex;
-    max-width: 48px;
-}
 
 .conteiner-info{
     display: flex;
