@@ -132,6 +132,24 @@ nav{
     justify-content: center;
 }
 
+.conteiner-tecnologia{
+    display: flex;
+    flex-direction: row;
+    width: 100rem;
+}
+
+.conteiner-tecnologia, h2{
+    display: flex;
+    width: 80%; /* Ajustado para ocupar 80% do espaço lateral */
+    
+}
+
+.conteiner-tecnologia, img{
+    display: flex;
+    width: 18rem;
+    height: 18.2rem;
+    
+}
 
 /*----- footer -----*/
 

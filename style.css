@@ -110,6 +110,21 @@ nav {
     color: var(--color-button-blue);
 }
 
+.conteiner-tecnologia{
+   
+}
+
+.conteiner-tecnologia, h2{
+    color: var(--color-tex-blue);
+    font-weight: Extra-bold;
+    font-size: 50px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.conteiner-tecnologia, img{
+
+}
+
 /* ------ footer ------ */
 
 .footer {
