@@ -1,5 +1,6 @@
 :root {
     --color-text: #ffffff;
+    --color-text-gray: #6A6A6A;
     --color-tex-blue: #013D92;
     --color-button-blue: #013D92;
     --color-nav: #013D92;
@@ -89,6 +90,7 @@ nav{
     font-family: 'Actor', sans-serif;
     font-size: 18px;
     text-align: center;
+    color: var(--color-text-gray);
 }
 
 .title-card{
@@ -97,18 +99,12 @@ nav{
     font-family: 'Bricolage Grotesque', sans-serif;
 }
 
-.title-info{
-    font-size: 32px;
+.saiba-mais{
+    font-size: 18px;
     font-weight: bold;
     font-family: 'Bricolage Grotesque', sans-serif;
-    
-}
-
-.button-distrito2{
-    background-color: var(--color-button-blue);
-    color: white;
-    font-size: 24px;
-    font-family: 'Inter', sans-serif;
+    color: var(--color-button-blue);
+    background-color: #ffffff;
 }
 
 /* ------ footer ------ */
