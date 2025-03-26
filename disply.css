@@ -16,7 +16,7 @@ nav{
     display: flex;
     height: 4rem;
     margin: 0rem;
-    
+    align-items: center;
 }
 
 .title-principal{
@@ -26,6 +26,22 @@ nav{
     padding: 0rem;
     font-size: 38px;
     font-weight: extra-bold;
+}
+
+.nav-home{
+    display: flex;
+    margin: 0rem 2rem;
+    
+}
+
+.nav-distritos{
+    display: flex;
+    margin: 0rem 2rem;
+}
+
+.nav-posto{
+    display: flex;
+    margin: 0rem 2rem;
 }
 
 .div-img{
