@@ -13,12 +13,13 @@ ___
 <details> 
     <summary>Clique para expandir</summary>
 
-- **Google Drive**: Armazenamento e compartilhamento de documentos do projeto.
-- **Jira**: Organização e gerenciamento de tarefas.
-- **WhatsApp**: Comunicação da equipe.
-- **GitHub**: Versionamento do código e colaboração do desenvolvimento.
-- **Google Sites**: Divulgação do projeto de forma clara e intuitiva para clientes.
-- **Figma**: Prototipação da plataforma.
+- <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white" />
+- <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+- <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+- <img src="https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" />
+- <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+- <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+- <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 
 </details>
 
