@@ -16,6 +16,7 @@ ___
 - **WhatsApp**: Comunicação da equipe.
 - **GitHub**: Versionamento do código e colaboração do desenvolvimento.
 - **Google Sites**: Divulgação do projeto de forma clara e intuitiva para clientes.
+- **Figma**: Prototipação da plataforma.
 
 </details>
 
