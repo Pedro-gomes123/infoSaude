@@ -15,7 +15,7 @@ ___
 
 - **Google Drive**: Armazenamento e compartilhamento de documentos do projeto.
 - **Jira**: Organização e gerenciamento de tarefas.
-- ![image]({https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white})
+- **WhatsApp**: Comunicação da equipe.
 - **GitHub**: Versionamento do código e colaboração do desenvolvimento.
 - **Google Sites**: Divulgação do projeto de forma clara e intuitiva para clientes.
 - **Figma**: Prototipação da plataforma.
