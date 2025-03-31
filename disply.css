@@ -57,6 +57,10 @@ nav{
 }
 
 
+
+
+
+
 /* -------- header ---------*/
 
 .conteiner-text-home{
@@ -153,6 +157,17 @@ nav{
     height: 35rem;
     margin: 0;
     align-self: center; 
+}
+
+.conteiner-informativo{
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    margin: 0rem 2rem;
+}
+
+.conteiner-informativo, p{
+    display: flex;
+    width: 70%;
 }
 
 /*----- footer -----*/
