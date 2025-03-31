@@ -27,7 +27,11 @@ ___
 
 ## 📖Entrega 1
 
+![Planejamento](./imgReadme/planejamentoJira.png)
 
+### Backlog
+
+![Backlog](./imgReadme/backlogJira.png)
 ___
 
 ## 👥Nossa Equipe
