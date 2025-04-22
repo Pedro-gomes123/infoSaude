@@ -32,6 +32,19 @@ ___
 ### Backlog
 
 ![Backlog](./imgReadme/backlogJira.png)
+
+___
+
+## 🔗Recursos do Projeto
+
+- **Gerenciamento:**
+    - [Jira](https://id.atlassian.com/login?continue=https%3A%2F%2Fid.atlassian.com%2Fjoin%2Fuser-access%3Fresource%3Dari%253Acloud%253Ajira%253A%253Asite%252Fe4a1ea6d-37a4-470a-aa3d-77820f3886a5%26continue%3Dhttps%253A%252F%252Fcesar-team-zmqyt8fg.atlassian.net%252Fjira%252Fsoftware%252Fprojects%252FKAN%252Fboards%252F1%253Fassignee%253Dunassigned%25252C712020%25253A41db834d-0f03-4c46-a2d3-3b7b468d8f16&application=jira)
+
+- **Apresentação:**
+    - [Slides da Apresentação](https://www.canva.com/design/DAGCmpua3MQ/To3bhs9X5exntfk9QRJk5Q/edit?utm_content=DAGCmpua3MQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebuttonhttps://www.canva.com/design/DAGCmpua3MQ/To3bhs9X5exntfk9QRJk5Q/edit?utm_content=DAGCmpua3MQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+- **Demonstração:**
+    - [Screencast](https://drive.google.com/file/d/1X53gyZxotaYsbJRWsbnN4iZYeIEC44rE/view?usp=drive_link)
 ___
 
 ## 👥Nossa Equipe
