@@ -1,10 +1,10 @@
 :root {
     --color-text: #ffffff;
     --color-text-gray: #6A6A6A;
-    --color-tex-blue: #013D92;
+    --color-text-blue: #013D92; /* Corrigido o nome da variável */
     --color-button-blue: #013D92;
     --color-nav: #013D92;
-    --color-conteiner-white: #F9F9F9; /* Corrigido ':' para ';' */
+    --color-conteiner-white: #F9F9F9;
 }
 
 /*--------- main.home---------*/
@@ -49,16 +49,16 @@ nav {
 
 .text-home1 {
     font-size: 54px;
-    font-weight: extra-bold;
+    font-weight: 800; /* Corrigido extra-bold para 800 */
     font-family: 'Bricolage Grotesque', sans-serif;
-    color: var(--color-tex-blue);
+    color: var(--color-text-blue); /* Corrigido o nome da variável */
 }
 
 .text-home2 {
     font-size: 30px;
-    font-weight: medium;
+    font-weight: 500; /* Corrigido medium para 500 */
     font-family: 'Inter', sans-serif;
-    color: var(--color-tex-blue);
+    color: var(--color-text-blue); /* Corrigido o nome da variável */
 }
 
 .button-distrito {
@@ -80,7 +80,7 @@ nav {
 
 .text-conteiner-card {
     font-size: 26px;
-    font-weight: semi-bold;
+    font-weight: 600; /* Corrigido semi-bold para 600 */
     font-family: 'Bricolage Grotesque', sans-serif;
 }
 
@@ -105,39 +105,43 @@ nav {
     background-color: #ffffff;
 }
 
-.saiba-mais, a {
+.saiba-mais a { /* Corrigido o seletor */
     text-decoration: none;
     color: var(--color-button-blue);
 }
 
-
-
 .title-header2{
-    color: var(--color-tex-blue);
-    font-weight: Extra-bold;
+    color: var(--color-text-blue);
+    font-weight: 800; /* Corrigido Extra-bold para 800 */
     font-size: 50px;
     font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 .title-informativo{
-    color: var(--color-tex-blue);
+    color: var(--color-text-blue);
     font-weight: bold;
     font-size: 30px;
     font-family: 'Bricolage Grotesque', sans-serif;
 }
 
-.conteiner-informativo, p{
+.conteiner-informativo {
     font-family: 'Actor', sans-serif;
     font-size: 24px;
-    
+    padding: 10px; /* Adicionado padding */
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
-
+.conteiner-informativo p {
+    max-width: 100%;
+    box-sizing: border-box;
+}
 
 /* ------ footer.home ------ */
 
 .footer {
-    background-color: var(--color-tex-blue);
+    background-color: var(--color-text-blue);
     color: white;
 }
 

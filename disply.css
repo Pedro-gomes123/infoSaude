@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 p {
@@ -11,81 +13,76 @@ p {
 
 /* -------- main ---------*/
 
-nav{
+nav {
     display: flex;
     height: 4rem;
     margin: 0rem;
     align-items: center;
 }
 
-.title-principal{
+.title-principal {
     display: flex;
     align-self: center;
-    margin: 1rem 50rem 1rem 1rem;
-    padding: 0rem;
+    margin: 1rem auto 1rem 1rem;
+    padding: 0;
     font-size: 38px;
-    font-weight: extra-bold;
+    font-weight: bold;
 }
 
-.nav-home{
-    display: flex;
-    margin: 0rem 2rem;
-    
-}
-
-.nav-distritos{
+.nav-home {
     display: flex;
     margin: 0rem 2rem;
 }
 
-.nav-servicos { /* Corrigido o nome da classe */
+.nav-distritos {
+    display: flex;
+    margin: 0rem 2rem;
+}
+
+.nav-servicos {
     display: flex;
     margin: 0 2rem;
 }
 
-.nav-posto{
+.nav-posto {
     display: flex;
     margin: 0rem 2rem;
 }
 
-.div-img{
+.div-img {
     display: flex;
     width: 100%;
     height: 35rem;
     margin: 0rem;
-    
+    object-fit: cover;
 }
-
-
-
-
-
 
 /* -------- header ---------*/
 
-.conteiner-text-home{
+.conteiner-text-home {
     display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin: 0; /* Remove margens */
+    margin: 0;
 }
 
-.conteiner-text-home, span {
+.conteiner-text-home,
+span {
     display: block;
 }
 
-.text-home1{
-    display: block;
-    margin: 2rem 4rem;
-}
-
-.text-home2{
+.text-home1 {
     display: block;
     margin: 2rem 4rem;
 }
 
-.button-distrito{
+.text-home2 {
+    display: block;
+    margin: 2rem 4rem;
+}
+
+.button-distrito {
     display: flex;
     margin: 2rem 4rem;
     border: 0px;
@@ -96,39 +93,36 @@ nav{
     align-items: center;
 }
 
-.conteiner-card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-items: flex-start; /* Garante que os itens fiquem na parte superior */
-    margin: 4rem 0rem 7.7rem 0rem;
-    gap: 4rem;
+.conteiner-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px;
+    gap: 1rem;
 }
 
-.box{
+.box {
     display: flex;
-    flex-direction: column; /* Empilha os elementos verticalmente */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    justify-content: flex-start; /* Garante que os itens fiquem na parte superior */
-    margin: 0rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 4rem 0rem 4rem 0rem;
     height: 335px;
-    width: 423px;
-    
+    width: 100%;
+    max-width: 423px;
 }
 
-.icone-card{
+.icone-card {
     display: block;
-    width: 48px; /* Ajuste o tamanho conforme necessário */
+    width: 48px;
     height: 48px;
-    margin-bottom: 1rem; /* Espaçamento entre o ícone e outros conteúdos */
+    margin-bottom: 1rem;
     justify-content: center;
     align-items: center;
 }
-
 
 .saiba-mais {
     display: flex;
-    margin-left: auto; /* Melhorado para centralizar dinamicamente */
+    margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
     height: 4rem;
@@ -141,55 +135,64 @@ nav{
 
 .header-alignment {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin: 2rem 0; 
+    margin: 2rem 1rem;
 }
 
 .title-header2 {
-    margin-left: 2rem; 
-    padding: 0; 
-    width: 60%;
+    width: 100%;
+    margin: 0rem;
+    text-align: center;
 }
 
 .img-header {
-    width: 40%;
-    height: 35rem;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
     margin: 0;
-    align-self: center; 
+    align-self: center;
 }
 
-.conteiner-informativo{
+.title-informativo{
     display: flex;
-    flex-direction: column; /* Alinha os itens verticalmente */
-    margin: 0rem 2rem;
+    margin: 0rem 0rem 2rem 0rem;
+    
 }
 
-.conteiner-informativo, p{
+.conteiner-informativo {
     display: flex;
-    width: 70%;
+    flex-direction: column;
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+.conteiner-informativo p  {
+    display: block;
+    width: 90%;
+    margin: 1rem auto 1rem auto;
+    line-height: 1.6;
+    text-align: justify;
 }
 
 /*----- footer -----*/
 
-.footer{
+.footer {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     height: 24.8rem;
     width: auto;
     box-sizing: content-box;
 }
 
-.conteiner-footer{
+.conteiner-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-self: flex-start;
-    
     width: 100%;
 }
 
-.box-footer{
+.box-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -198,8 +201,10 @@ nav{
     margin: 3rem 6rem 3rem 6rem;
 }
 
-.footer-linha{
-    margin: 0rem 9.3rem;
+.footer-linha {
+    margin: 0rem 7.7rem;
+    max-width: calc(100% - 18.6rem);
+    overflow: hidden;
 }
 
 /* Aplica estilos apenas para telas menores que 768px (telas móveis) */
