@@ -3,6 +3,7 @@ from modelos import Postos, ListarPosto
 from bancodedados import SessionDep, criar_bd
 from sqlmodel import select, Session, engine
 import json
+from haversine import haversine, Unit
 
 app = FastAPI()
 
@@ -35,3 +36,19 @@ def listar_posto(id_posto: int, session: SessionDep) -> Postos:
     if not posto:
         raise HTTPException(status_code=404, detail="Posto não encontrado")
     return posto
+
+@app.get("/postos/proximos", response_model=ListarPosto)
+def postos_proximos(latitude:float, longitude:float, session:SessionDep) -> Postos:
+    postos = session.exec(select(Postos)).all()
+    coordenada_usuario = (latitude, longitude)
+    menor_distancia = 1000
+    for posto in postos:
+        distancia = haversine(coordenada_posto, coordenada_usuario, unit=Unit.KILOMETERS)
+        coordenada_posto = (posto["latitude"], posto["longitude"])
+        if  distancia < menor_distancia:
+            menor_distancia = distancia
+            posto_proximo = posto
+
+    return posto_proximo
+
+
