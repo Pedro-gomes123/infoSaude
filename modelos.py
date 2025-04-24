@@ -1,4 +1,5 @@
 from sqlmodel import SQLModel, Field
+from pydantic import BaseModel
 
 class Postos(SQLModel, table=True):
     id: int|None = Field(default=None, primary_key=True)
@@ -12,3 +13,10 @@ class Postos(SQLModel, table=True):
     horario: str|None
     latitude: float|None
     longitude: float|None
+
+class ListarPosto(BaseModel):
+    id: int
+    nome_oficial: str
+    endereco: str
+    bairro: str
+    especialidade: str

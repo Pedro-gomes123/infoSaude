@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from modelos import Postos
+from modelos import Postos, ListarPosto
 from bancodedados import SessionDep, criar_bd
 from sqlmodel import select, Session, engine
 import json
@@ -24,7 +24,7 @@ def inicializa():
         migrar_postos(session)
 
 
-@app.get("/postos/")
+@app.get("/postos/", response_model=list[ListarPosto])
 def listar_postos(session: SessionDep) -> list[Postos]:
     postos = session.exec(select(Postos)).all()
     return postos
