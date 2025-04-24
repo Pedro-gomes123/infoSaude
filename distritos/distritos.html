@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="InfoSaúde - Conheça os distritos sanitários e encontre o posto de saúde mais próximo.">
+    <title>Distritos - InfoSaúde</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="display.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <header class="header">
+        <nav>
+            <h1 class="title-principal">
+                InfoSaude
+            </h1>
+
+            <a href="#" class="nav-home">Home</a> <!-- Corrigido href vazio -->
+
+            <a href="./distritos/distritos.html" class="nav-distritos">Distritos</a> <!-- Corrigido espaço extra -->
+
+            <a href="#" class="nav-servicos">Serviços</a> <!-- Corrigido erro de digitação -->
+
+            <a href="#" class="nav-posto">Posto</a> <!-- Corrigido href vazio -->
+        </nav>
+        
+        <div class="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Bem-vindo ao InfoSaúde">
+                      <rect width="100%" height="100%" fill="#777"></rect>
+                      <text x="50%" y="50%" fill="#555" dy=".3em" text-anchor="middle">Bem-vindo ao InfoSaúde</text>
+                    </svg>
+                </div>
+                <div class="carousel-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Conheça nossos distritos sanitários">
+                      <rect width="100%" height="100%" fill="#666"></rect>
+                      <text x="50%" y="50%" fill="#444" dy=".3em" text-anchor="middle">Conheça nossos distritos sanitários</text>
+                    </svg>
+                </div>
+                <div class="carousel-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Encontre o posto mais próximo">
+                      <rect width="100%" height="100%" fill="#555"></rect>
+                      <text x="50%" y="50%" fill="#333" dy=".3em" text-anchor="middle">Encontre o posto mais próximo</text>
+                    </svg>
+                </div>
+            </div>
+          
+            <div class="carousel-controls">
+                <button id="prev" aria-label="Previous slide">&#10094;</button>
+                <button id="next" aria-label="Next slide">&#10095;</button>
+            </div>
+          
+            <div class="carousel-indicators">
+              <button data-slide="0" class="active"></button>
+              <button data-slide="1"></button>
+              <button data-slide="2"></button>
+            </div>
+          </div>
+
+    </header>
+
+    <section class="container">
+        <label for="search-bar" class="visually-hidden">Buscar distrito</label>
+        <input type="text" id="search-bar" class="search-bar" placeholder="Buscar distrito">
+
+        <h2>Distritos</h2>
+        
+        <div class="cards-grid">
+            <div class="card">
+                <img src="./img/vacinação.jpg" alt="Distrito Sanitário I">
+                <div class="card-title">Distrito Sanitário I</div>
+            </div>
+            <div class="card">
+                <img src="./img/covid.jpeg" alt="Distrito Sanitário II">
+                <div class="card-title">Distrito Sanitário II</div>
+            </div>
+            <div class="card">
+                <img src="./img/vacinação.jpg" alt="Distrito Sanitário III">
+                <div class="card-title">Distrito Sanitário III</div>
+            </div>
+            <div class="card">
+                <img src="./img/covid.jpeg" alt="Distrito Sanitário IV">
+                <div class="card-title">Distrito Sanitário IV</div>
+            </div>
+            <div class="card">
+                <img src="./img/vacinação.jpg" alt="Distrito Sanitário V">
+                <div class="card-title">Distrito Sanitário V</div>
+            </div>
+            <div class="card">
+                <img src="./img/covid.jpeg" alt="Distrito Sanitário VI">
+                <div class="card-title">Distrito Sanitário VI</div>
+            </div>
+            <div class="card">
+                <img src="./img/vacinação.jpg" alt="Distrito Sanitário VII">
+                <div class="card-title">Distrito Sanitário VII</div>
+            </div>
+            <div class="card">
+                <img src="./img/covid.jpeg" alt="Distrito Sanitário VIII">
+                <div class="card-title">Distrito Sanitário VIII</div>
+            </div>
+        </div>
+
+        <div class="map-section">
+            <h2 class="map-title">Onde encontrar</h2>
+            <div class="map">
+                <div class="marker marker-1"></div>
+                <div class="marker marker-2"></div>
+                <div class="marker marker-3"></div>
+                <div class="marker marker-4"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="header">
+        <p>© 2025 InfoSaúde Recife</p>
+    </footer>
+
+
+
+    <script src="./carrossel.js"></script>
+
+</body>
+
+</html>
