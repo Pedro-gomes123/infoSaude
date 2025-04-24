@@ -1,11 +1,17 @@
 from fastapi import FastAPI, HTTPException
 from modelos import Postos, ListarPosto
-from bancodedados import SessionDep, criar_bd
-from sqlmodel import select, Session, engine
+from bancodedados import SessionDep, criar_bd, engine
+from sqlmodel import select, Session
 import json
 from haversine import haversine, Unit
 
 app = FastAPI()
+
+def float_none(valor):
+    try:
+        return float(valor)
+    except (ValueError, TypeError):
+        return None
 
 def migrar_postos(session: SessionDep):
     with open("postos_saude.json","r",encoding="utf-8") as arquivo:
@@ -14,7 +20,7 @@ def migrar_postos(session: SessionDep):
     if verificar_bd:
         return
     for posto in postos:
-        novo_posto = Postos(nome_oficial=posto["nome_oficial"], endereco=posto["endereco"], bairro=posto["bairro"], fone=posto["fone"], servico=posto["servico"], especialidade=posto["especialidade"], como_usar=posto["como_usar"], horario=posto["horario"], latitude=posto["latitude"], longitude=posto["longitude"])
+        novo_posto = Postos(nome_oficial=posto["nome_oficial"], endereco=posto["endereco"], bairro=posto["bairro"], fone=posto["fone"], servico=posto["servico"], especialidade=posto["especialidade"], como_usar=posto["como_usar"], horario=posto["horario"], latitude=float_none(posto["latitude"]), longitude=float_none(posto["longitude"]))
         session.add(novo_posto)
     session.commit()
 
