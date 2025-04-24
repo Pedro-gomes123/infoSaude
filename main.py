@@ -6,14 +6,6 @@ import json
 
 app = FastAPI()
 
-@app.on_event("startup")
-def inicializa():
-    criar_bd()
-    with Session(engine) as session:
-        migrar_postos(session)
-
-
-
 def migrar_postos(session: SessionDep):
     with open("postos_saude.json","r",encoding="utf-8") as arquivo:
         postos = json.load(arquivo)
@@ -24,3 +16,10 @@ def migrar_postos(session: SessionDep):
         novo_posto = Postos(nome_oficial=posto["nome_oficial"], endereco=posto["endereco"], bairro=posto["bairro"], fone=posto["fone"], servico=posto["servico"], especialidade=posto["especialidade"], como_usar=posto["como_usar"], horario=posto["horario"], latitude=posto["latitude"], longitude=posto["longitude"])
         session.add(novo_posto)
     session.commit()
+
+@app.on_event("startup")
+def inicializa():
+    criar_bd()
+    with Session(engine) as session:
+        migrar_postos(session)
+
