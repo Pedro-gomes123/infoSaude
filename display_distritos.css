@@ -131,7 +131,8 @@ h2 {
 
 .search-bar {
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
     width: 54.2rem;
     padding: 10px 15px;
     font-size: 1rem;
