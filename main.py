@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from modelos import Postos
 from bancodedados import SessionDep, criar_bd
 from sqlmodel import select, Session, engine
@@ -23,3 +23,15 @@ def inicializa():
     with Session(engine) as session:
         migrar_postos(session)
 
+
+@app.get("/postos/")
+def listar_postos(session: SessionDep) -> list[Postos]:
+    postos = session.exec(select(Postos)).all()
+    return postos
+
+@app.get("/postos/{id_posto}")
+def listar_posto(id_posto: int, session: SessionDep) -> Postos:
+    posto = session.get(Postos, id_posto)
+    if not posto:
+        raise HTTPException(status_code=404, detail="Posto não encontrado")
+    return posto
