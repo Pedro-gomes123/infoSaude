@@ -58,7 +58,7 @@ def listar_posto(id_posto: int, session: SessionDep) -> Postos:
 def postos_proximos(latitude:float, longitude:float, session:SessionDep) -> Postos:
     postos = session.exec(select(Postos)).all()
     coordenada_usuario = (latitude, longitude)
-    menor_distancia = 1000
+    menor_distancia = float("inf")
     posto_proximo = None
     for posto in postos:
         if posto.latitude is None or posto.longitude is None:
