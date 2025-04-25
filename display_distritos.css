@@ -69,7 +69,7 @@ nav {
 .carousel {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 35rem;
     overflow: hidden;
     
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
