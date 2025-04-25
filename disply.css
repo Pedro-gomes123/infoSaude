@@ -15,7 +15,7 @@ p {
     display: flex;
 }
 
-/* -------- main ---------*/
+/* -------- header ---------*/
 
 nav {
     display: flex;
@@ -61,7 +61,7 @@ nav {
     object-fit: cover;
 }
 
-/* -------- header ---------*/
+/* -------- main ---------*/
 
 .conteiner-text-home {
     display: flex;
@@ -100,8 +100,8 @@ span {
 .conteiner-card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0px;
-    gap: 1rem;
+    margin: 0rem 0rem 0rem 2rem;
+    
 }
 
 .box {
@@ -110,18 +110,22 @@ span {
     align-items: center;
     justify-content: flex-start;
     margin: 4rem 0rem 4rem 0rem;
-    height: 335px;
+    height: 20rem;
     width: 100%;
-    max-width: 423px;
+    max-width: 400px;
 }
 
 .icone-card {
     display: block;
     width: 48px;
     height: 48px;
-    margin-bottom: 1rem;
+    margin: 2rem 0rem 2rem 0rem;
     justify-content: center;
     align-items: center;
+}
+
+.text-conteiner-card{
+    margin: 0rem 0rem 1.4rem 0rem;
 }
 
 .saiba-mais {

@@ -14,7 +14,7 @@
 .container {
     background-color: var(--color-conteiner-white); /* Corrigido erro na variável */
     border-radius: 17px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 42px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
 /*--------- main.home---------*/
