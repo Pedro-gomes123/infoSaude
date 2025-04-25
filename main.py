@@ -1,9 +1,11 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Response
 from modelos import Postos, ListarPosto
 from bancodedados import SessionDep, criar_bd, engine
 from sqlmodel import select, Session
 import json
 from haversine import haversine, Unit
+from fastapi.responses import HTMLResponse
+import folium
 
 app = FastAPI()
 
@@ -14,7 +16,7 @@ def float_none(valor):
         return None
 
 def migrar_postos(session: SessionDep):
-    with open("postos_saude.json","r",encoding="utf-8") as arquivo:
+    with open("postos_saude_corrigido.json","r",encoding="utf-8") as arquivo:
         postos = json.load(arquivo)
     verificar_bd = session.exec(select(Postos)).first()
     if verificar_bd:
@@ -44,7 +46,7 @@ def listar_posto(id_posto: int, session: SessionDep) -> Postos:
     return posto
 
 @app.get("/postos/proximos", response_model=ListarPosto)
-def postos_proximos(latitude:float, longitude:float, session:SessionDep) -> Postos:
+def postos_proximos(session:SessionDep, latitude:float, longitude:float) -> Postos:
     postos = session.exec(select(Postos)).all()
     coordenada_usuario = (latitude, longitude)
     menor_distancia = 1000
@@ -56,5 +58,43 @@ def postos_proximos(latitude:float, longitude:float, session:SessionDep) -> Post
             posto_proximo = posto
 
     return posto_proximo
+
+@app.get("/postos/", response_model=list[ListarPosto])
+def filtrar_postos(session: SessionDep, bairro: str = None, servico: str = None, especialidade: str = None) -> list[Postos]:
+    postos = session.exec(select(Postos)).all()
+    if bairro is not None:
+        postos_filtrados = [posto for posto in postos if posto["bairro"] == bairro]
+    if servico is not None:
+        postos_filtrados = [posto for posto in postos if posto["servico"] == servico]
+    if especialidade is not None:
+        postos_filtrados = [posto for posto in postos if especialidade in posto["especialidade"]]
+
+    return postos_filtrados
+
+
+@app.get("/mapa_postos/", response_class=HTMLResponse)
+def mapear_postos(session: SessionDep):
+    postos = session.exec(select(Postos)).all()
+    mapa = folium.Map([-8.0539, -34.8808], tiles="OpenStreetMap", zoom_start=8)
+    for posto in postos:
+        if posto["latitude"] is not None and posto["longitude"] is not None:
+            coordenada_posto = [posto["latitude"], posto["longitude"]]
+            popup_html = f"""" 
+                <h3>{posto["nome_oficial"]}</h3>
+                <p>Endereço: {posto["endereco"]}</p>
+                <p>Telefone: {posto["fone"]}</p>
+                <p>Especialidade: {posto["especialidade"]}</p>
+                <p>Horario: {posto["horario"]}</p>
+            """
+            folium.Marker(
+                location=coordenada_posto,
+                tooltip= posto["nome_oficial"],
+                popup=popup_html,
+                icon=folium.Icon(color="blue", icon="hospital")
+            ).add_to(mapa)
+
+    mapa_html = mapa._repr_html_()
+    return Response(content=mapa_html, media_type="text/html")
+
 
 
