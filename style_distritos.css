@@ -1,4 +1,5 @@
 @import url('./root.css');
+@import url(./reset.css);
 
 nav {
     background-color: var(--color-nav);
