@@ -1,15 +1,4 @@
-/* variables */
-:root {
-    --color-text: #ffffff;
-    --color-text-gray: #6A6A6A;
-    --color-text-blue: #013D92; /* Corrigido o nome da variável */
-    --color-button-blue: #013D92;
-    --color-nav: #013D92;
-    --color-conteiner-white: #F9F9F9;
-    --color-text-gray2: #999999;
-}
-
-/*--------- main.home---------*/
+@import url('./root.css');
 
 nav {
     background-color: var(--color-nav);
@@ -49,7 +38,7 @@ nav {
 
 /*------------------- main -------------------*/
 
-h2{
+h2 {
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 3rem;
     font-weight: bold;
@@ -60,7 +49,6 @@ h2{
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 2rem;
     font-weight: bold;
-    
 }
 
 .card-text {
