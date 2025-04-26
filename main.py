@@ -89,7 +89,7 @@ def filtrar_postos(session: SessionDep, bairro: str = None, servico: str = None,
 @app.get("/mapa_postos/", response_class=HTMLResponse)
 def mapear_postos(session: SessionDep):
     postos = session.exec(select(Postos)).all()
-    mapa = folium.Map([-8.0539, -34.8808], tiles="OpenStreetMap", zoom_start=16)
+    mapa = folium.Map([-8.0539, -34.8808], tiles="OpenStreetMap", zoom_start=14)
     for posto in postos:
         if posto.latitude is not None and posto.longitude is not None:      
             latitude = float(posto.latitude)
