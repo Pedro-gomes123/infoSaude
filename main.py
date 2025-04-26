@@ -7,6 +7,7 @@ import json
 from haversine import haversine, Unit
 from fastapi.responses import HTMLResponse
 import folium
+import html
 
 app = FastAPI()
 
@@ -89,24 +90,25 @@ def filtrar_postos(session: SessionDep, bairro: str = None, servico: str = None,
 @app.get("/mapa_postos/", response_class=HTMLResponse)
 def mapear_postos(session: SessionDep):
     postos = session.exec(select(Postos)).all()
-    mapa = folium.Map([-8.0539, -34.8808], tiles="OpenStreetMap", zoom_start=13)
+    mapa = folium.Map([-8.0539, -34.8808], tiles="OpenStreetMap", zoom_start=16)
     for posto in postos:
         if posto.latitude is not None and posto.longitude is not None:
-            coordenada_posto = [posto.latitude, posto.longitude]
+            latitude = round(float(posto.latitude),4)
+            longitude = round(float(posto.longitude),4)
+            coordenada_posto = [latitude, longitude]
             popup_html = f""" 
-                <h3>{posto.nome_oficial}</h3>
-                <p>Endereço: {posto.endereco}</p>
-                <p>Telefone: {posto.fone}</p>
-                <p>Especialidade: {posto.especialidade}</p>
-                <p>Horario: {posto.horario}</p>
+                <h3>{html.escape(posto.nome_oficial)}</h3>
+                <p>Endereço: {html.escape(posto.endereco)}</p>
+                <p>Telefone: {html.escape(posto.fone)}</p>
+                <p>Especialidade: {html.escape(posto.especialidade)}</p>
+                <p>Horario: {html.escape(posto.horario)}</p>
             """
             folium.Marker(
                 location=coordenada_posto,
                 tooltip= posto.nome_oficial,
-                popup=popup_html,
-                icon=folium.Icon(color="blue", icon="hospital")
+                popup=folium.Popup(popup_html, max_width=200),
+                icon=folium.Icon(color="blue")
             ).add_to(mapa)
-
     mapa_html = mapa._repr_html_()
     return Response(content=mapa_html, media_type="text/html")
 
