@@ -7,7 +7,6 @@ import json
 from haversine import haversine, Unit
 from fastapi.responses import HTMLResponse
 import folium
-import html
 
 app = FastAPI()
 
@@ -26,7 +25,7 @@ def float_none(valor):
         return None
 
 def migrar_postos(session: SessionDep):
-    with open("postos_saude_corrigido.json","r",encoding="utf-8") as arquivo:
+    with open("postos_saude.json","r",encoding="utf-8") as arquivo:
         postos = json.load(arquivo)
     verificar_bd = session.exec(select(Postos)).first()
     if verificar_bd:
@@ -92,25 +91,25 @@ def mapear_postos(session: SessionDep):
     postos = session.exec(select(Postos)).all()
     mapa = folium.Map([-8.0539, -34.8808], tiles="OpenStreetMap", zoom_start=16)
     for posto in postos:
-        if posto.latitude is not None and posto.longitude is not None:
-            latitude = round(float(posto.latitude),4)
-            longitude = round(float(posto.longitude),4)
+        if posto.latitude is not None and posto.longitude is not None:      
+            latitude = float(posto.latitude)
+            longitude = float(posto.longitude)
             coordenada_posto = [latitude, longitude]
             popup_html = f""" 
-                <h3>{html.escape(posto.nome_oficial)}</h3>
-                <p>Endereço: {html.escape(posto.endereco)}</p>
-                <p>Telefone: {html.escape(posto.fone)}</p>
-                <p>Especialidade: {html.escape(posto.especialidade)}</p>
-                <p>Horario: {html.escape(posto.horario)}</p>
-            """
+                <h3>{posto.nome_oficial}</h3>
+                <p>Endereço: {posto.endereco}</p>
+                <p>Telefone: {posto.fone}</p>
+                <p>Especialidade: {posto.especialidade}</p>
+                <p>Horario: {posto.horario}</p>
+                """
             folium.Marker(
                 location=coordenada_posto,
+                popup=folium.Popup(popup_html, max_width=300),
                 tooltip= posto.nome_oficial,
-                popup=folium.Popup(popup_html, max_width=200),
-                icon=folium.Icon(color="blue")
+                icon=folium.Icon(color="red", icon="plus-sign")
             ).add_to(mapa)
-    mapa_html = mapa._repr_html_()
-    return Response(content=mapa_html, media_type="text/html")
+
+    return mapa._repr_html_()
 
 
 
