@@ -58,3 +58,10 @@ h2 {
     font-weight: normal;
     color: var(--color-text-gray2);
 }
+
+.map-title{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
