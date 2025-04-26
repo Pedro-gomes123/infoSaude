@@ -183,6 +183,18 @@ h2 {
     margin: 0.5rem ;
 }
 
+.card-text {
+    margin: 0.5rem;
+    padding: 10px;
+    flex: 1;
+}
+
+.bairros-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px 15px;
+}
+
 .map-section {
     margin: 40px 0;
 }
