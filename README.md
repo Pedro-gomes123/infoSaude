@@ -45,6 +45,10 @@ ___
     - [Slides da Apresentação](https://www.canva.com/design/DAGCmpua3MQ/To3bhs9X5exntfk9QRJk5Q/edit?utm_content=DAGCmpua3MQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - **Demonstração:**
     - [Screencast](https://drive.google.com/file/d/1X53gyZxotaYsbJRWsbnN4iZYeIEC44rE/view?usp=drive_link)
+ 
+  ## Diagrama de Atividades
+
+![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpg)
 
       </details>
 
@@ -54,7 +58,7 @@ ___
     <summary>Clique para expandir</summary>
 
 
-### 1. Visão Geral do Quadro
+### 1. Visão Geral do Quadro (Trello)
 ![Visão Geral do Trello](prints/print.visaogeral_trello.JPG)
 
 ### 2. Exemplo de User Story Detalhada
@@ -102,6 +106,11 @@ Visão Futura - Em projetos mais técnicos e sistemas mais complexos, a Programa
 
 Back-end simples - Não exigiu codificação complexa que justificasse Programação em Pares.
 
+
+## Diagrama de Atividades
+
+![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpg)
+
 </details>
 
 ____
@@ -133,7 +142,7 @@ ___
 ## 👥 Nossa Equipe
 
 - Ana Beatriz Astle
-- Denise
+- Denise Tavares
 - Eduardo de Medeiros Rocha
 - Gustavo Magina
 - João Victor Astle
