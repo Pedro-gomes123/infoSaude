@@ -57,17 +57,17 @@ Caso o projeto evoluísse para uma fase de desenvolvimento mais robusta — por 
 
 Fatores e Justificativas:
 
-Natureza do projeto	- Mais protótipo, menos software robusto
+Natureza do projeto	- Mais protótipo, menos software robusto;
 
-Tipo de tarefas	- Simples, mais front-end básico e estrutura com back-end simples
+Tipo de tarefas	- Simples, mais front-end básico e estrutura com back-end simples;
 
-Organização da equipe - Divisão por microentregas para ser mais ágil
+Organização da equipe - Divisão por microentregas para ser mais ágil;
 
-Prioridade - Cumprir prazos de maneira leve e prática. Agilidade individual para cumprir prazos.
+Prioridade - Cumprir prazos de maneira leve e prática. Agilidade individual para cumprir prazos;
 
-Visão Futura - Em projetos mais técnicos e sistemas mais complexos, a Programação em Pares poderá ser incorporada
+Visão Futura - Em projetos mais técnicos e sistemas mais complexos, a Programação em Pares poderá ser incorporada;
 
-Back-end simples - Não exigiu codificação complexa que justificasse Programação em Pares
+Back-end simples - Não exigiu codificação complexa que justificasse Programação em Pares.
 
 
 ## 👥Nossa Equipe
