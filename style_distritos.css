@@ -25,7 +25,7 @@ nav {
     color: var(--color-text);
 }
 
-.nav-servicos { /* Corrigido o nome da classe */
+.nav-servicos { 
     font-family: 'Bricolage Grotesque', sans-serif;
     text-decoration: none;
     color: var(--color-text);

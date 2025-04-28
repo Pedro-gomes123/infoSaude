@@ -12,7 +12,7 @@
 
 /* layouts */
 .container {
-    background-color: var(--color-conteiner-white); /* Corrigido erro na variável */
+    background-color: var(--color-conteiner-white);
     border-radius: 17px;
     box-shadow: 42px 5px 4px rgba(0, 0, 0, 0.25);
 }
@@ -43,7 +43,7 @@ nav {
     color: var(--color-text);
 }
 
-.nav-servicos { /* Corrigido o nome da classe */
+.nav-servicos { 
     font-family: 'Bricolage Grotesque', sans-serif;
     text-decoration: none;
     color: var(--color-text);
@@ -59,16 +59,16 @@ nav {
 
 .text-home1 {
     font-size: 54px;
-    font-weight: 800; /* Corrigido extra-bold para 800 */
+    font-weight: 800; 
     font-family: 'Bricolage Grotesque', sans-serif;
-    color: var(--color-text-blue); /* Corrigido o nome da variável */
+    color: var(--color-text-blue); 
 }
 
 .text-home2 {
     font-size: 30px;
-    font-weight: 500; /* Corrigido medium para 500 */
+    font-weight: 500; 
     font-family: 'Inter', sans-serif;
-    color: var(--color-text-blue); /* Corrigido o nome da variável */
+    color: var(--color-text-blue); 
 }
 
 .button-distrito {
@@ -79,7 +79,7 @@ nav {
 }
 
 .box {
-    background-color: var(--color-conteiner-white); /* Corrigido erro na variável */
+    background-color: var(--color-conteiner-white);
     border-radius: 17px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -90,7 +90,7 @@ nav {
 
 .text-conteiner-card {
     font-size: 26px;
-    font-weight: 600; /* Corrigido semi-bold para 600 */
+    font-weight: 600; 
     font-family: 'Bricolage Grotesque', sans-serif;
 }
 
@@ -115,14 +115,14 @@ nav {
     background-color: #ffffff;
 }
 
-.saiba-mais a { /* Corrigido o seletor */
+.saiba-mais a {
     text-decoration: none;
     color: var(--color-button-blue);
 }
 
 .title-header2{
     color: var(--color-text-blue);
-    font-weight: 800; /* Corrigido Extra-bold para 800 */
+    font-weight: 800; 
     font-size: 50px;
     font-family: 'Bricolage Grotesque', sans-serif;
 }
@@ -137,7 +137,7 @@ nav {
 .conteiner-informativo {
     font-family: 'Actor', sans-serif;
     font-size: 24px;
-    padding: 10px; /* Adicionado padding */
+    padding: 10px; 
     max-width: 100%;
     box-sizing: border-box;
     overflow-x: hidden;
