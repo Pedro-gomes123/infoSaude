@@ -132,7 +132,7 @@ Integrações e Extensibilidade: A compatibilidade do Trello com outras ferramen
 Custo-Benefício: Para o estágio atual do projeto, o Trello oferece uma versão gratuita que atende plenamente às necessidades, eliminando custos adicionais.
 </details>
 
-___
+
 
 ## Diagrama de Atividades
 <details>
