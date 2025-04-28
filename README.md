@@ -56,6 +56,7 @@ Além disso, o time priorizou a autonomia individual na execução de microentre
 Caso o projeto evoluísse para uma fase de desenvolvimento mais robusta — por exemplo, com a integração de banco de dados, uma linguam back-end mais complexa e interfaces dinâmicas —, a prática de Programação em Pares seria considerada como uma estratégia para aumento de qualidade de código e redução de bugs.
 
 Fatores e Justificativas:
+
 Natureza do projeto	- Mais protótipo, menos software robusto
 
 Tipo de tarefas	- Simples, mais front-end básico e estrutura com back-end simples
@@ -63,7 +64,9 @@ Tipo de tarefas	- Simples, mais front-end básico e estrutura com back-end simpl
 Organização da equipe - Divisão por microentregas para ser mais ágil
 
 Prioridade - Cumprir prazos de maneira leve e prática. Agilidade individual para cumprir prazos.
+
 Visão Futura - Em projetos mais técnicos e sistemas mais complexos, a Programação em Pares poderá ser incorporada
+
 Back-end simples - Não exigiu codificação complexa que justificasse Programação em Pares
 
 
