@@ -70,6 +70,8 @@ ___
 ### 4. Organização de Responsáveis
 ![Etiquetas e Responsáveis](prints/membros.JPG)
 
+
+</details>
 ___
 
 ## 🔗 Recursos do Projeto (Entrega 02)
@@ -140,6 +142,7 @@ ___
 ![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpg)
 
 </details>
+
 ___
 
 ## 👥 Nossa Equipe
