@@ -113,7 +113,7 @@ Back-end simples - Não exigiu codificação complexa que justificasse Programa�
 ![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpg)
 
 
-
+</details>
 ____
 
 ## Justificativa da Escolha da Ferramenta Trello
