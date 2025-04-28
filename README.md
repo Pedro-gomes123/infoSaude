@@ -25,7 +25,7 @@ ___
 
 ___
 
-## 📖 Entrega 1
+## 📖 Entrega 01
 <details>
     <summary>Clique para expandir</summary>
 
@@ -35,12 +35,8 @@ ___
 
 ![Backlog](./imgReadme/backlogJira.png)
 
-</details>
 
-___
-
-
-## 🔗 Recursos do Projeto
+## 🔗 Recursos do Projeto (Entrega 01)
 
 - **Gerenciamento:**
     - [Trello](https://trello.com/b/DH96Xoq6/projeto-infosaude)
@@ -50,8 +46,10 @@ ___
 - **Demonstração:**
     - [Screencast](https://drive.google.com/file/d/1X53gyZxotaYsbJRWsbnN4iZYeIEC44rE/view?usp=drive_link)
 
-      
-## 📖 Entrega 2
+      </details>
+
+___
+## 📖 Entrega 02
 <details>
     <summary>Clique para expandir</summary>
 
@@ -70,7 +68,7 @@ ___
 
 ___
 
-## 🔗 Recursos do Projeto
+## 🔗 Recursos do Projeto (Entrega 02)
 
 - **Gerenciamento:**
     - [Trello](https://trello.com/b/DH96Xoq6/projeto-infosaude)
