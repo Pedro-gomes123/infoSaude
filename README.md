@@ -47,7 +47,7 @@ ___
     - [Screencast](https://drive.google.com/file/d/1X53gyZxotaYsbJRWsbnN4iZYeIEC44rE/view?usp=drive_link)
 ___
 
-- JUSTIFICATIVA DO NÃO USO DA PROGRAMAÇÃO EM PARES:
+## JUSTIFICATIVA DO NÃO USO DA PROGRAMAÇÃO EM PARES:
   
 No contexto do Projeto InfoSaúde, optamos por não adotar a técnica de Programação em Pares devido à natureza multidisciplinar e acadêmica do time, bem como pela divisão prática de funções.
 O foco principal do projeto esteve voltado para a construção de um protótipo funcional e um fluxo claro de navegação e informações, com ênfase em design de solução, pesquisa de usuário e estruturação de conteúdo — mais do que no desenvolvimento de software propriamente dito.
@@ -68,6 +68,37 @@ Prioridade - Cumprir prazos de maneira leve e prática. Agilidade individual par
 Visão Futura - Em projetos mais técnicos e sistemas mais complexos, a Programação em Pares poderá ser incorporada;
 
 Back-end simples - Não exigiu codificação complexa que justificasse Programação em Pares.
+
+________________________________________________________________________________________________________________________________________________________________________
+
+## Justificativa da Escolha da Ferramenta Trello
+Para a gestão do projeto InfoSaúde Recife, optamos pelo uso do Trello como ferramenta principal de organização das atividades e acompanhamento das entregas. A decisão foi baseada nos seguintes fatores:
+
+Facilidade de Uso e Acessibilidade: O Trello é uma plataforma intuitiva, que possibilita a colaboração remota da equipe de maneira simples e eficiente, atendendo às necessidades de times multidisciplinares e de projetos acadêmicos.
+
+Metodologia Ágil (Scrum): O Trello permite a estruturação de quadros que simulam fluxos ágeis, como o Scrum, que foi a abordagem metodológica adotada pelo projeto. Os cartões representam tarefas (User Stories), os checklists indicam critérios de aceitação e os quadros são organizados em colunas que refletem o progresso das atividades (Backlog, To Do, Doing, Done).
+
+Transparência e Rastreabilidade: A ferramenta proporciona visibilidade total sobre o andamento do projeto para todos os membros da equipe, facilitando a rastreabilidade das atividades realizadas e o gerenciamento do tempo de execução de cada etapa.
+
+Integrações e Extensibilidade: A compatibilidade do Trello com outras ferramentas (como Google Drive e Slack) facilita a centralização de documentos, discussões e versões de artefatos desenvolvidos.
+
+Custo-Benefício: Para o estágio atual do projeto, o Trello oferece uma versão gratuita que atende plenamente às necessidades, eliminando custos adicionais.
+
+## Prints do Trello
+
+### 1. Visão Geral do Quadro
+![Visão Geral do Trello](prints/print.visaogeral_trello.JPG)
+
+### 2. Exemplo de User Story Detalhada
+![User Story com Checklist](prints/trello_carta_aceitacao)
+
+### 3. Progresso das Tarefas na Sprint
+![Movimentação de Cartões](prints/responsaveis.JPG)
+
+### 4. Organização de Responsáveis
+![Etiquetas e Responsáveis](prints/membros.JPG)
+
+
 
 
 ## 👥Nossa Equipe
