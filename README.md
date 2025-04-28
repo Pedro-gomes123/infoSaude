@@ -73,6 +73,72 @@ ___
 
 ___
 
+# Instruções de Acesso ao InfoSaúde Recife
+
+## Sobre o Projeto
+O **InfoSaúde Recife** é uma plataforma digital desenvolvida para democratizar o acesso às informações de saúde pública da cidade de Recife.  
+O projeto busca reduzir a peregrinação de cidadãos em busca de atendimento, organizando dados de forma clara e acessível, e promovendo a inclusão digital e a cidadania.
+
+## Como Acessar
+O acesso é gratuito e aberto ao público em geral.
+
+🔗 **Link oficial da plataforma:**  
+[https://info-saude-bd6s.vercel.app/](https://info-saude-bd6s.vercel.app/)
+
+Não é necessário realizar cadastro ou autenticação.
+
+---
+
+## Navegação pela Plataforma
+
+### 🏠 Home
+- Apresentação da proposta do InfoSaúde.
+- Opções de busca de postos de saúde por **localização** ou por **especialidades médicas**.
+- Acesso rápido às informações gerais, como horários de funcionamento e principais serviços oferecidos nos postos.
+
+### 🏥 Distritos
+- Exibição de postos de saúde organizados por **distritos sanitários** de Recife.
+- Visualização da distribuição dos postos em um **mapa interativo**, permitindo fácil identificação de unidades próximas.
+
+### 🛠️ Menu de Serviços
+- **Informações sobre Postos de Saúde:**  
+  Endereços, serviços disponíveis e especialidades médicas oferecidas em cada unidade.
+- **Orientações para o Cidadão:**  
+  Documentação necessária para atendimento e instruções sobre como proceder em busca de serviços de saúde.
+- **Contato e Suporte:**  
+  Formulário protótipo para envio de dúvidas e sugestões (a ser implementado em versões futuras).
+
+---
+
+## Requisitos Técnicos
+- **Navegadores Compatíveis:** Google Chrome, Microsoft Edge, Mozilla Firefox e Safari.
+- **Dispositivos Compatíveis:** Computadores, smartphones e tablets (design responsivo).
+- **Conexão:** Recomendável internet estável para melhor experiência de navegação.
+
+---
+
+## Observações
+- A versão atual é um **protótipo estático**, desenvolvido para demonstrar a estrutura e o funcionamento da plataforma.
+- Futuras versões do InfoSaúde irão incluir:
+  - Integrações dinâmicas com bases de dados públicas.
+  - Atualizações automáticas de informações dos postos de saúde.
+  - Funcionalidades de comunicação direta com os usuários.
+
+---
+
+# Destaques do InfoSaúde
+
+| Recurso                | Descrição                                                    |
+|-------------------------|--------------------------------------------------------------|
+| **Busca por Localização** | Encontre rapidamente postos próximos à sua residência.        |
+| **Busca por Especialidade** | Consulte postos que oferecem serviços médicos específicos.    |
+| **Mapa Interativo**      | Navegue visualmente pela cidade e identifique unidades de saúde. |
+| **Inclusão Digital**     | Plataforma acessível a diferentes perfis de usuários.          |
+
+___
+
+
+
 ## 🔗 Recursos do Projeto (Entrega 02)
 
 - **Gerenciamento:**
