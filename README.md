@@ -28,11 +28,33 @@ ___
 ## 📖Entrega 1
 <details>
     <summary>Clique para expandir</summary>
+
 ![Planejamento](./imgReadme/planejamentoJira.png)
 
 ### Backlog
 
 ![Backlog](./imgReadme/backlogJira.png)
+
+</details>
+
+___
+
+## 📖Entrega 2
+<details>
+    <summary>Clique para expandir</summary>
+
+
+### 1. Visão Geral do Quadro
+![Visão Geral do Trello](prints/print.visaogeral_trello.JPG)
+
+### 2. Exemplo de User Story Detalhada
+![User Story com Checklist](prints/trello_carta_aceitacao.JPG)
+
+### 3. Progresso das Tarefas na Sprint
+![Movimentação de Cartões](prints/responsaveis.JPG)
+
+### 4. Organização de Responsáveis
+![Etiquetas e Responsáveis](prints/membros.JPG)
 
 </details>
 
@@ -72,7 +94,7 @@ Visão Futura - Em projetos mais técnicos e sistemas mais complexos, a Programa
 
 Back-end simples - Não exigiu codificação complexa que justificasse Programação em Pares.
 
-________________________________________________________________________________________________________________________________________________________________________
+____
 
 ## Justificativa da Escolha da Ferramenta Trello
 Para a gestão do projeto InfoSaúde Recife, optamos pelo uso do Trello como ferramenta principal de organização das atividades e acompanhamento das entregas. A decisão foi baseada nos seguintes fatores:
@@ -87,22 +109,7 @@ Integrações e Extensibilidade: A compatibilidade do Trello com outras ferramen
 
 Custo-Benefício: Para o estágio atual do projeto, o Trello oferece uma versão gratuita que atende plenamente às necessidades, eliminando custos adicionais.
 
-## Prints do Trello
-
-### 1. Visão Geral do Quadro
-![Visão Geral do Trello](prints/print.visaogeral_trello.JPG)
-
-### 2. Exemplo de User Story Detalhada
-![User Story com Checklist](prints/trello_carta_aceitacao.JPG)
-
-### 3. Progresso das Tarefas na Sprint
-![Movimentação de Cartões](prints/responsaveis.JPG)
-
-### 4. Organização de Responsáveis
-![Etiquetas e Responsáveis](prints/membros.JPG)
-
-_______________________________________________________________________________________________________________________________________________________________________
-
+___
 
 ## 👥Nossa Equipe
 
