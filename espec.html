@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icone.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./espec.css">
+    <link rel="stylesheet" href="./disply.css">
+    <title>InfoSaude</title>
+</head>
+
+<body>
+
+    <header class="main">
+        <nav>
+            <h1 class="title-principal">
+                InfoSaude
+            </h1>
+
+            <a href="./index.html" class="nav-home">Home</a> <!-- Corrigido href vazio -->
+
+            <a href="./distritos.html" class="nav-distritos">Distritos</a> <!-- Corrigido espaço extra -->
+
+            <a href="#" class="nav-servicos">Serviços</a> <!-- Corrigido erro de digitação -->
+
+            <a href="#" class="nav-posto">Posto</a> <!-- Corrigido href vazio -->
+        </nav>
+        
+    </header>
+
+    <main class="especialidades-container">
+        <h2 class="title-especialidades">Informe a especialidade que deseja</h2>
+
+        <div class="busca-container">
+            <div class="search-box">
+                <input type="text" id="especialidadeInput" placeholder="Especialidades" class="search-input">
+                <div class="search-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <button id="buscarBtn" class="buscar-btn">Buscar</button>
+        <button id="voltarDistritosBtn" class="voltar-distritos-btn">Voltar para distritos</button>
+    </main>
+          
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="box-footer">
+                <h3 class="title-footer">Mais informações</h3>
+                <p>Encontre detalhes sobre serviços de saúde.</p>
+            </div>
+    
+            <div class="box-footer">
+                <h3 class="title-footer">Saúde</h3>
+                <p>Cuide-se com informações confiáveis.</p>
+            </div>
+    
+            <div class="box-footer">
+                <h3 class="title-footer">Contato</h3>
+                <p>Fale conosco para mais suporte.</p>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 - Todos os direitos reservados</p>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
