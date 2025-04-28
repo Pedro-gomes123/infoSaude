@@ -175,11 +175,10 @@ Back-end simples - Não exigiu codificação complexa que justificasse Programa�
 
 ## Issue/bug tracker atualizado
 
+![bug tracker](imgReadme/bug_tracker.png)
+![labels do bug tracker](imgReadme/labels_bug_tracker.png)
 
-
-
-
-
+___
   
 ## Diagrama de Atividades
 
