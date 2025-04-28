@@ -90,7 +90,7 @@ Custo-Benefício: Para o estágio atual do projeto, o Trello oferece uma versão
 ![Visão Geral do Trello](prints/print.visaogeral_trello.JPG)
 
 ### 2. Exemplo de User Story Detalhada
-![User Story com Checklist](prints/trello_carta_aceitacao)
+![User Story com Checklist](prints/trello_carta_aceitacao.JPG)
 
 ### 3. Progresso das Tarefas na Sprint
 ![Movimentação de Cartões](prints/responsaveis.JPG)
@@ -98,7 +98,7 @@ Custo-Benefício: Para o estágio atual do projeto, o Trello oferece uma versão
 ### 4. Organização de Responsáveis
 ![Etiquetas e Responsáveis](prints/membros.JPG)
 
-
+_______________________________________________________________________________________________________________________________________________________________________
 
 
 ## 👥Nossa Equipe
