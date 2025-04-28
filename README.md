@@ -47,6 +47,29 @@ ___
     - [Screencast](https://drive.google.com/file/d/1X53gyZxotaYsbJRWsbnN4iZYeIEC44rE/view?usp=drive_link)
 ___
 
+- JUSTIFICATIVA DO NÃO USO DA PROGRAMAÇÃO EM PARES:
+  
+No contexto do Projeto InfoSaúde, optamos por não adotar a técnica de Programação em Pares devido à natureza multidisciplinar e acadêmica do time, bem como pela divisão prática de funções.
+O foco principal do projeto esteve voltado para a construção de um protótipo funcional e um fluxo claro de navegação e informações, com ênfase em design de solução, pesquisa de usuário e estruturação de conteúdo — mais do que no desenvolvimento de software propriamente dito.
+Como a maior parte das tarefas de desenvolvimento envolveu criação de artefatos simples (páginas HTML estáticas, linguagem back-end básica, documentação, estrutura de navegação) em vez de códigos complexos que exigissem lógica colaborativa intensa, a adoção de Programação em Pares não se justificaria em termos de ganho de produtividade ou qualidade técnica.
+Além disso, o time priorizou a autonomia individual na execução de microentregas específicas (como a criação de fluxogramas, testes de usabilidade, e construção de telas) para garantir agilidade no cumprimento de prazos curtos e dinâmicos, típicos de projetos acadêmicos com datas de entrega fixas.
+Caso o projeto evoluísse para uma fase de desenvolvimento mais robusta — por exemplo, com a integração de banco de dados, uma linguam back-end mais complexa e interfaces dinâmicas —, a prática de Programação em Pares seria considerada como uma estratégia para aumento de qualidade de código e redução de bugs.
+
+Fatores e Justificativas:
+
+Natureza do projeto	- Mais protótipo, menos software robusto;
+
+Tipo de tarefas	- Simples, mais front-end básico e estrutura com back-end simples;
+
+Organização da equipe - Divisão por microentregas para ser mais ágil;
+
+Prioridade - Cumprir prazos de maneira leve e prática. Agilidade individual para cumprir prazos;
+
+Visão Futura - Em projetos mais técnicos e sistemas mais complexos, a Programação em Pares poderá ser incorporada;
+
+Back-end simples - Não exigiu codificação complexa que justificasse Programação em Pares.
+
+
 ## 👥Nossa Equipe
 
 - Ana Beatriz Astle
