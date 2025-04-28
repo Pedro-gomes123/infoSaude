@@ -148,7 +148,7 @@ ___
     - [Slides da Apresentação](https://www.canva.com/design/DAGl8FnqY1g/FbNJSN2IKcpnlroenxiNYg/edit)
 
 - **Demonstração:**
-    - [Screencast]
+    - [Screencast](https://drive.google.com/file/d/18RZb0QfYtQ-2tBeta3jGFc_bRU2adzWu/view?usp=sharing)
 ___
 
 ## JUSTIFICATIVA DO NÃO USO DA PROGRAMAÇÃO EM PARES:
@@ -172,6 +172,13 @@ Prioridade - Cumprir prazos de maneira leve e prática. Agilidade individual par
 Visão Futura - Em projetos mais técnicos e sistemas mais complexos, a Programação em Pares poderá ser incorporada;
 
 Back-end simples - Não exigiu codificação complexa que justificasse Programação em Pares.
+
+## Issue/bug tracker atualizado
+
+
+
+
+
 
   
 ## Diagrama de Atividades
