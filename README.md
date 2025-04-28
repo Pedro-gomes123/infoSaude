@@ -2,14 +2,14 @@
 
 ![Logo](./img/logoInfoSaude.jpeg)
 
-## 📌Sobre o Projeto
+## 📌 Sobre o Projeto
 A InfoSaúde Recife é uma plataforma digital que está sendo desenvolvida para facilitar o acesso a informações sobre os serviços de saúde pública. Nosso objetivo é otimizar a busca por atendimento, minimizando deslocamentos desnecessários, otmizando a distribuição da demanda nos postos de saúde e melhorando a experiência dos usuários.
 
 A plataforma permitirá a consulta rápida e intuitiva das unidades de saúde disponíveis, oferecendo informações organizadas e acessíveis.
 
 ___
 
-## 🛠Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 <details> 
     <summary>Clique para expandir</summary>
 
@@ -25,7 +25,7 @@ ___
 
 ___
 
-## 📖Entrega 1
+## 📖 Entrega 1
 <details>
     <summary>Clique para expandir</summary>
 
@@ -39,7 +39,7 @@ ___
 
 ___
 
-## 📖Entrega 2
+## 📖 Entrega 2
 <details>
     <summary>Clique para expandir</summary>
 
@@ -60,7 +60,7 @@ ___
 
 ___
 
-## 🔗Recursos do Projeto
+## 🔗 Recursos do Projeto
 
 - **Gerenciamento:**
     - [Jira](https://id.atlassian.com/login?continue=https%3A%2F%2Fid.atlassian.com%2Fjoin%2Fuser-access%3Fresource%3Dari%253Acloud%253Ajira%253A%253Asite%252Fe4a1ea6d-37a4-470a-aa3d-77820f3886a5%26continue%3Dhttps%253A%252F%252Fcesar-team-zmqyt8fg.atlassian.net%252Fjira%252Fsoftware%252Fprojects%252FKAN%252Fboards%252F1%253Fassignee%253Dunassigned%25252C712020%25253A41db834d-0f03-4c46-a2d3-3b7b468d8f16&application=jira)
@@ -73,7 +73,8 @@ ___
 ___
 
 ## JUSTIFICATIVA DO NÃO USO DA PROGRAMAÇÃO EM PARES:
-  
+<details>  
+    <summary>Clique para expandir</summary>
 No contexto do Projeto InfoSaúde, optamos por não adotar a técnica de Programação em Pares devido à natureza multidisciplinar e acadêmica do time, bem como pela divisão prática de funções.
 O foco principal do projeto esteve voltado para a construção de um protótipo funcional e um fluxo claro de navegação e informações, com ênfase em design de solução, pesquisa de usuário e estruturação de conteúdo — mais do que no desenvolvimento de software propriamente dito.
 Como a maior parte das tarefas de desenvolvimento envolveu criação de artefatos simples (páginas HTML estáticas, linguagem back-end básica, documentação, estrutura de navegação) em vez de códigos complexos que exigissem lógica colaborativa intensa, a adoção de Programação em Pares não se justificaria em termos de ganho de produtividade ou qualidade técnica.
@@ -94,9 +95,13 @@ Visão Futura - Em projetos mais técnicos e sistemas mais complexos, a Programa
 
 Back-end simples - Não exigiu codificação complexa que justificasse Programação em Pares.
 
+</details>
+
 ____
 
 ## Justificativa da Escolha da Ferramenta Trello
+<details>
+    <summary>Clique para expandir</summary>
 Para a gestão do projeto InfoSaúde Recife, optamos pelo uso do Trello como ferramenta principal de organização das atividades e acompanhamento das entregas. A decisão foi baseada nos seguintes fatores:
 
 Facilidade de Uso e Acessibilidade: O Trello é uma plataforma intuitiva, que possibilita a colaboração remota da equipe de maneira simples e eficiente, atendendo às necessidades de times multidisciplinares e de projetos acadêmicos.
@@ -108,10 +113,11 @@ Transparência e Rastreabilidade: A ferramenta proporciona visibilidade total so
 Integrações e Extensibilidade: A compatibilidade do Trello com outras ferramentas (como Google Drive e Slack) facilita a centralização de documentos, discussões e versões de artefatos desenvolvidos.
 
 Custo-Benefício: Para o estágio atual do projeto, o Trello oferece uma versão gratuita que atende plenamente às necessidades, eliminando custos adicionais.
+</details>
 
 ___
 
-## 👥Nossa Equipe
+## 👥 Nossa Equipe
 
 - Ana Beatriz Astle
 - Denise
