@@ -50,7 +50,7 @@ ___
 
 ![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpg)
 
-      </details>
+   
 
 ___
 ## 📖 Entrega 02
@@ -106,12 +106,12 @@ Visão Futura - Em projetos mais técnicos e sistemas mais complexos, a Programa
 
 Back-end simples - Não exigiu codificação complexa que justificasse Programação em Pares.
 
-
+  
 ## Diagrama de Atividades
 
 ![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpg)
 
-</details>
+
 
 ____
 
@@ -134,9 +134,12 @@ Custo-Benefício: Para o estágio atual do projeto, o Trello oferece uma versão
 ___
 
 ## Diagrama de Atividades
+<details>
+    <summary>Clique para expandir</summary>
 
 ![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpg)
 
+</details>
 ___
 
 ## 👥 Nossa Equipe
