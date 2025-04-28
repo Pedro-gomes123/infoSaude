@@ -46,8 +46,7 @@ ___
     - [Trello](https://trello.com/b/DH96Xoq6/projeto-infosaude)
 
 - **Apresentação:**
-    - [Slides da Apresentação](https://www.canva.com/design/DAGCmpua3MQ/To3bhs9X5exntfk9QRJk5Q/edit?utm_content=DAGCmpua3MQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebuttonhttps://www.canva.com/design/DAGCmpua3MQ/To3bhs9X5exntfk9QRJk5Q/edit?utm_content=DAGCmpua3MQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
+    - [Slides da Apresentação](https://www.canva.com/design/DAGCmpua3MQ/To3bhs9X5exntfk9QRJk5Q/edit?utm_content=DAGCmpua3MQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - **Demonstração:**
     - [Screencast](https://drive.google.com/file/d/1X53gyZxotaYsbJRWsbnN4iZYeIEC44rE/view?usp=drive_link)
 
@@ -77,15 +76,14 @@ ___
     - [Trello](https://trello.com/b/DH96Xoq6/projeto-infosaude)
 
 - **Apresentação:**
-    - [Slides da Apresentação](https://www.canva.com/design/DAGl8FnqY1g/FbNJSN2IKcpnlroenxiNYg/)
+    - [Slides da Apresentação](https://www.canva.com/design/DAGl8FnqY1g/FbNJSN2IKcpnlroenxiNYg/edit)
 
 - **Demonstração:**
-    - [Screencast]()
+    - [Screencast]
 ___
 
 ## JUSTIFICATIVA DO NÃO USO DA PROGRAMAÇÃO EM PARES:
  
-    <summary>Clique para expandir</summary>
 No contexto do Projeto InfoSaúde, optamos por não adotar a técnica de Programação em Pares devido à natureza multidisciplinar e acadêmica do time, bem como pela divisão prática de funções.
 O foco principal do projeto esteve voltado para a construção de um protótipo funcional e um fluxo claro de navegação e informações, com ênfase em design de solução, pesquisa de usuário e estruturação de conteúdo — mais do que no desenvolvimento de software propriamente dito.
 Como a maior parte das tarefas de desenvolvimento envolveu criação de artefatos simples (páginas HTML estáticas, linguagem back-end básica, documentação, estrutura de navegação) em vez de códigos complexos que exigissem lógica colaborativa intensa, a adoção de Programação em Pares não se justificaria em termos de ganho de produtividade ou qualidade técnica.
