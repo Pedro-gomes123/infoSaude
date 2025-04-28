@@ -114,7 +114,7 @@ Back-end simples - Não exigiu codificação complexa que justificasse Programa�
 
 
 </details>
-____
+___
 
 ## Justificativa da Escolha da Ferramenta Trello
 <details>
