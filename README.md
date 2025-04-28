@@ -26,12 +26,15 @@ ___
 ___
 
 ## 📖Entrega 1
-
+<details>
+    <summary>Clique para expandir</summary>
 ![Planejamento](./imgReadme/planejamentoJira.png)
 
 ### Backlog
 
 ![Backlog](./imgReadme/backlogJira.png)
+
+</details>
 
 ___
 
