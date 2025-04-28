@@ -119,7 +119,8 @@ ___
 
 ##Diagrama de Atividades
 
-prints/diagrama_atividades.jpg
+![Visão Geral Diagrama Atividades](prints/print.diagrama_atividades.jpg)
+
 ___
 
 ## 👥 Nossa Equipe
