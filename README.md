@@ -50,9 +50,9 @@ ___
 
 ![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpg)
 
-   
+</details>
 
-___
+
 ## 📖 Entrega 02
 <details>
     <summary>Clique para expandir</summary>
@@ -71,7 +71,6 @@ ___
 ![Etiquetas e Responsáveis](prints/membros.JPG)
 
 
-</details>
 ___
 
 ## 🔗 Recursos do Projeto (Entrega 02)
