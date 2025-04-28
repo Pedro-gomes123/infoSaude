@@ -117,9 +117,9 @@ Custo-Benefício: Para o estágio atual do projeto, o Trello oferece uma versão
 
 ___
 
-##Diagrama de Atividades
+## Diagrama de Atividades
 
-![Visão Geral Diagrama Atividades](prints/print.diagrama_atividades.jpg)
+![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpg)
 
 ___
 
