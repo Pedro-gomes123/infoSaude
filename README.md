@@ -117,6 +117,11 @@ Custo-Benefício: Para o estágio atual do projeto, o Trello oferece uma versão
 
 ___
 
+##Diagrama de Atividades
+
+prints/diagrama_atividades.jpg
+___
+
 ## 👥 Nossa Equipe
 
 - Ana Beatriz Astle
