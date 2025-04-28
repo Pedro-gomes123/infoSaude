@@ -82,7 +82,7 @@ O projeto busca reduzir a peregrinação de cidadãos em busca de atendimento, o
 ## Como Acessar
 O acesso é gratuito e aberto ao público em geral.
 
-🔗 **Link oficial da plataforma:**  
+🔗 **Link da plataforma:**  
 [https://info-saude-bd6s.vercel.app/](https://info-saude-bd6s.vercel.app/)
 
 Não é necessário realizar cadastro ou autenticação.
