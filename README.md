@@ -48,7 +48,7 @@ ___
  
   ## Diagrama de Atividades
 
-![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpg)
+![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpeg)
 
 </details>
 
@@ -182,7 +182,7 @@ ___
   
 ## Diagrama de Atividades
 
-![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpg)
+![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpeg)
 
 ## Diagrama das Informações dos Distritos
 
@@ -224,7 +224,7 @@ Custo-Benefício: Para o estágio atual do projeto, o Trello oferece uma versão
 ## Diagrama de Atividades
 
 
-![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpg)
+![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpeg)
 
 ## Diagrama das Informações dos Distritos
 
