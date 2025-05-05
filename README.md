@@ -184,6 +184,17 @@ ___
 
 ![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpg)
 
+## Diagrama Distritos
+
+![Visão Geral Diagrama Atividades](prints/diagrama_distritos.jpeg)
+
+## Diagrama Interativo
+
+![Visão Geral Diagrama Atividades](prints/diagrama_interativo.jpeg)
+
+
+
+
 
 </details>
 
@@ -211,6 +222,14 @@ Custo-Benefício: Para o estágio atual do projeto, o Trello oferece uma versão
     <summary>Clique para expandir</summary>
 
 ![Visão Geral Diagrama Atividades](prints/diagrama_atividades.jpg)
+
+## Diagrama Distritos
+
+![Visão Geral Diagrama Atividades](prints/diagrama_distritos.jpeg)
+
+## Diagrama Interativo
+
+![Visão Geral Diagrama Atividades](prints/diagrama_interativo.jpeg)
 
 </details>
 
