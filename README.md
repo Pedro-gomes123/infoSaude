@@ -217,15 +217,13 @@ ___
 
 ---
 
-## Diagramas Entrega 03
 
-
-## Diagrama da Seção de Dicas de Saúde
+## Diagramas Entrega 03: Diagrama da Seção de Dicas de Saúde
 
 ![Visão Geral Diagrama Dicas de Saúde](imgReadme/Diagrama3.jpeg)
 
 
-## Diagrama de Filtro por Posto de Saúde
+## Diagramas Entrega 03: Diagrama de Filtro por Posto de Saúde
     
 ![Visão Geral Diagrama de Filtro por Posto de Saúde](imgReadme/Diagrama4.jpeg)
 
