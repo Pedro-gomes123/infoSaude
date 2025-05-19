@@ -198,6 +198,7 @@ ___
 
 </details>
 
+
 ## 📖 Entrega 03
 <details>
     <summary>Clique para expandir</summary>
@@ -214,8 +215,10 @@ ___
    
  ![Visão Geral do Trello Próxima Sprint](imgReadme/novasprint.JPG) 
 
+---
 
 ## Diagramas Entrega 03
+
 
 ## Diagrama da Seção de Dicas de Saúde
 
@@ -225,6 +228,7 @@ ___
 ## Diagrama de Filtro por Posto de Saúde
     
 ![Visão Geral Diagrama de Filtro por Posto de Saúde](imgReadme/Diagrama4.jpeg)
+
 
 </details>
 
