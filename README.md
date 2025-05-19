@@ -198,6 +198,36 @@ ___
 
 </details>
 
+## 📖 Entrega 03
+<details>
+    <summary>Clique para expandir</summary>
+
+   ## Visão do Trello Geral Atualizada com Novas Sprints e Histórias
+
+    
+   ![Visão Geral do Trello](imgReadme/telatrello1..JPG) 
+
+
+   
+   ## Visão do Trello Geral Para Próxima Sprint
+
+   
+ ![Visão Geral do Trello Próxima Sprint](imgReadme/novasprint.JPG) 
+
+
+## Diagramas Entrega 03
+
+## Diagrama da Seção de Dicas de Saúde
+
+![Visão Geral Diagrama Dicas de Saúde](imgReadme/Diagrama3.jpeg)
+
+
+## Diagrama de Filtro por Posto de Saúde
+    
+![Visão Geral Diagrama de Filtro por Posto de Saúde](imgReadme/Diagrama4.jpeg)
+
+</details>
+
 
 ## Justificativa da Escolha da Ferramenta Trello
 <details>
@@ -233,6 +263,17 @@ Custo-Benefício: Para o estágio atual do projeto, o Trello oferece uma versão
 ## Diagrama do Mapa Interativo
 
 ![Visão Geral Diagrama Atividades](prints/diagrama_interativo.jpeg)
+
+## Diagrama da Seção de Dicas de Saúde
+
+![Visão Geral Diagrama Dicas de Saúde](imgReadme/Diagrama3.jpeg)
+
+## Diagrama de Filtro por Posto de Saúde
+    
+![Visão Geral Diagrama de Filtro por Posto de Saúde](imgReadme/Diagrama4.jpeg)
+
+
+
 
 </details>
 
