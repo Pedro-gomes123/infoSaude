@@ -206,7 +206,7 @@ ___
    ## Visão do Trello Geral Atualizada com Novas Sprints e Histórias
 
     
-   ![Visão Geral do Trello](imgReadme/telatrello1..JPG) 
+   ![Visão Geral do Trello](imgReadme/telatrell.JPG) 
 
 
    
